@@ -10,7 +10,7 @@
 
 @implementation SimpleAlgorithmsMgr
 
-- (NSUInteger)findNumFromArry:(NSArray<NSNumber *> *)arry targetNum:(int)targetNum{
+- (NSUInteger)binaryFindIndexFromArry:(NSArray<NSNumber *> *)arry targetNum:(int)targetNum{
     NSUInteger resultIndex = -1;
     
     int low = 0;

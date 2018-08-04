@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F891C49210DAC730011510A /* HandSomeMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F891C47210DAC720011510A /* HandSomeMgr.m */; };
-		4F891C4A210DAC730011510A /* HandSomeMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F891C47210DAC720011510A /* HandSomeMgr.m */; };
+		4F891C49210DAC730011510A /* SimpleAlgorithmsMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F891C47210DAC720011510A /* SimpleAlgorithmsMgr.m */; };
+		4F891C4A210DAC730011510A /* SimpleAlgorithmsMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F891C47210DAC720011510A /* SimpleAlgorithmsMgr.m */; };
 		4FC9D0AC210D9CBE00E93473 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC9D0AB210D9CBE00E93473 /* AppDelegate.m */; };
 		4FC9D0AF210D9CBE00E93473 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC9D0AE210D9CBE00E93473 /* ViewController.m */; };
 		4FC9D0B2210D9CBE00E93473 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC9D0B0210D9CBE00E93473 /* Main.storyboard */; };
@@ -29,8 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4F891C47210DAC720011510A /* HandSomeMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandSomeMgr.m; sourceTree = "<group>"; };
-		4F891C48210DAC730011510A /* HandSomeMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandSomeMgr.h; sourceTree = "<group>"; };
+		4F891C47210DAC720011510A /* SimpleAlgorithmsMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleAlgorithmsMgr.m; sourceTree = "<group>"; };
+		4F891C48210DAC730011510A /* SimpleAlgorithmsMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleAlgorithmsMgr.h; sourceTree = "<group>"; };
 		4FC9D0A7210D9CBE00E93473 /* algorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = algorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FC9D0AA210D9CBE00E93473 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4FC9D0AB210D9CBE00E93473 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -111,8 +111,8 @@
 		4FC9D0CE210DA17000E93473 /* magr */ = {
 			isa = PBXGroup;
 			children = (
-				4F891C48210DAC730011510A /* HandSomeMgr.h */,
-				4F891C47210DAC720011510A /* HandSomeMgr.m */,
+				4F891C48210DAC730011510A /* SimpleAlgorithmsMgr.h */,
+				4F891C47210DAC720011510A /* SimpleAlgorithmsMgr.m */,
 			);
 			path = magr;
 			sourceTree = "<group>";
@@ -218,7 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FC9D0AF210D9CBE00E93473 /* ViewController.m in Sources */,
-				4F891C49210DAC730011510A /* HandSomeMgr.m in Sources */,
+				4F891C49210DAC730011510A /* SimpleAlgorithmsMgr.m in Sources */,
 				4FC9D0BA210D9CC100E93473 /* main.m in Sources */,
 				4FC9D0AC210D9CBE00E93473 /* AppDelegate.m in Sources */,
 			);
@@ -229,7 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FC9D0C4210D9CC200E93473 /* algorithmsTests.m in Sources */,
-				4F891C4A210DAC730011510A /* HandSomeMgr.m in Sources */,
+				4F891C4A210DAC730011510A /* SimpleAlgorithmsMgr.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

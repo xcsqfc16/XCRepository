@@ -10,6 +10,16 @@
 
 @interface SimpleAlgorithmsMgr : NSObject
 
-- (NSUInteger)findNumFromArry:(NSArray<NSNumber *> *)arry targetNum:(int)targetNum;
+
+/**
+ 二分查找算法
+
+ @param arry 查找数组
+ @param targetNum 目标数字
+ @return 目标数字在数字中的序列号
+ */
+- (NSUInteger)binaryFindIndexFromArry:(NSArray<NSNumber *> *)arry targetNum:(int)targetNum;
+
+- (NSMutableArray *)selectionSortWithArray:(NSMutableArray *)array;
 
 @end

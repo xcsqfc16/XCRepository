@@ -7,10 +7,10 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "HandSomeMgr.h"
+#import "SimpleAlgorithmsMgr.h"
 
 @interface algorithmsTests : XCTestCase
-@property(nonatomic,strong) HandSomeMgr *handsomeMgr;
+@property(nonatomic,strong) SimpleAlgorithmsMgr *handsomeMgr;
 
 @end
 
@@ -18,7 +18,7 @@
 
 - (void)setUp {
     [super setUp];
-    _handsomeMgr = [[HandSomeMgr alloc] init];
+    _handsomeMgr = [[SimpleAlgorithmsMgr alloc] init];
 }
 
 - (void)tearDown {
@@ -30,7 +30,7 @@
     
     NSArray *arry = [NSArray arrayWithObjects:@1,@2,@3,@4,@5,@6,@7,@8,@9,@10,@11,@12, nil];
     int targetNum = 7;
-    NSUInteger result = [_handsomeMgr findNumFromArry:arry targetNum:targetNum];
+    NSUInteger result = [_handsomeMgr binaryFindIndexFromArry:arry targetNum:targetNum];
     
     XCTAssert(result == targetNum-1,@"查找错误❌");
 }
@@ -39,7 +39,7 @@
     
     NSArray *arry = [NSArray arrayWithObjects:@1,@2,@3,@4,@5,@6,@7,@8,@9,@10,@11,@12, nil];
     int targetNum = 9;
-    NSUInteger result = [_handsomeMgr findNumFromArry:arry targetNum:targetNum];
+    NSUInteger result = [_handsomeMgr binaryFindIndexFromArry:arry targetNum:targetNum];
     
     XCTAssert(result == targetNum-1,@"查找错误❌");
 }
