@@ -6,9 +6,9 @@
 //  Copyright © 2018年 com.XCSuperCompany. All rights reserved.
 //
 
-#import "HandSomeMgr.h"
+#import "SimpleAlgorithmsMgr.h"
 
-@implementation HandSomeMgr
+@implementation SimpleAlgorithmsMgr
 
 - (NSUInteger)findNumFromArry:(NSArray<NSNumber *> *)arry targetNum:(int)targetNum{
     NSUInteger resultIndex = -1;

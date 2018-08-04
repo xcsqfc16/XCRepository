@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface HandSomeMgr : NSObject
+@interface SimpleAlgorithmsMgr : NSObject
 
 - (NSUInteger)findNumFromArry:(NSArray<NSNumber *> *)arry targetNum:(int)targetNum;
 
