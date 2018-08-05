@@ -20,6 +20,13 @@
  */
 - (NSUInteger)binaryFindIndexFromArry:(NSArray<NSNumber *> *)arry targetNum:(int)targetNum;
 
+
+/**
+ 选择排序（从小到大排序）
+
+ @param array 需要排序的数组
+ @return 排序完成的数组
+ */
 - (NSMutableArray *)selectionSortWithArray:(NSMutableArray *)array;
 
 @end

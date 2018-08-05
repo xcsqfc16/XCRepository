@@ -34,4 +34,27 @@
     return resultIndex;
 }
 
+- (NSMutableArray *)selectionSortWithArray:(NSMutableArray *)array{
+    NSMutableArray *sortArray = [NSMutableArray arrayWithCapacity:1];
+    
+    while (array.count) {
+        NSUInteger minNum = [self findMinNumWithArray:array];
+        [sortArray addObject:@(minNum)];
+        [array removeObject:@(minNum)];
+    }
+    
+    return sortArray;
+}
+
+- (NSUInteger)findMinNumWithArray:(NSMutableArray *)array{
+    NSUInteger minNum = [[array firstObject] integerValue];
+    for (int i = 1; i<array.count; i++) {
+        if ([[array objectAtIndex:i] integerValue] < minNum) {
+            minNum = [[array objectAtIndex:i] integerValue];
+        }
+    }
+    
+    return minNum;
+}
+
 @end
