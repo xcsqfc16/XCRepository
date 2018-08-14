@@ -53,6 +53,14 @@
     XCTAssert(sortArray,@"查找错误❌");
 }
 
+- (void)testQiuckSortMinArray{
+    NSMutableArray *arry = [NSMutableArray arrayWithObjects:@5,@12,@3,@4,@11,@6,@7,@9,@8,@10,@1,@2, nil];
+    
+    NSMutableArray *sortArray = [_handsomeMgr quickSortWithArray:(NSMutableArray *)arry];
+    
+    XCTAssert(sortArray,@"查找错误❌");
+}
+
 - (void)testPerformanceExample {
     // This is an example of a performance test case.
     [self measureBlock:^{

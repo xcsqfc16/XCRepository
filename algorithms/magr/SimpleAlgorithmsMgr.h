@@ -29,4 +29,6 @@
  */
 - (NSMutableArray *)selectionSortWithArray:(NSMutableArray *)array;
 
+- (NSMutableArray *)quickSortWithArray:(NSMutableArray<NSNumber *> *)array;
+
 @end

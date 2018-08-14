@@ -2,4 +2,420 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "algorithmsTests/algorithmsTests.m"
+            timestampString = "555263571.970855"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "-testQiuckSortMinArray"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[algorithmsTests testQiuckSortMinArray]"
+                  moduleName = "algorithmsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaochao/Desktop/XCRepository/algorithmsTests/algorithmsTests.m"
+                  timestampString = "555263574.311259"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "954">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[algorithmsTests testQiuckSortMinArray]"
+                  moduleName = "algorithmsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaochao/Desktop/XCRepository/algorithmsTests/algorithmsTests.m"
+                  timestampString = "555263574.314685"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "1371">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[algorithmsTests testQiuckSortMinArray]"
+                  moduleName = "algorithmsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaochao/Desktop/XCRepository/algorithmsTests/algorithmsTests.m"
+                  timestampString = "555263574.323357"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "1465">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[algorithmsTests testQiuckSortMinArray]"
+                  moduleName = "algorithmsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaochao/Desktop/XCRepository/algorithmsTests/algorithmsTests.m"
+                  timestampString = "555263574.33383"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "1574">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "algorithms/magr/SimpleAlgorithmsMgr.m"
+            timestampString = "555263571.971714"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "-quickSortWithArray:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SimpleAlgorithmsMgr quickSortWithArray:]"
+                  moduleName = "algorithms"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaochao/Desktop/XCRepository/algorithms/magr/SimpleAlgorithmsMgr.m"
+                  timestampString = "555263572.063023"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SimpleAlgorithmsMgr quickSortWithArray:]"
+                  moduleName = "algorithmsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaochao/Desktop/XCRepository/algorithms/magr/SimpleAlgorithmsMgr.m"
+                  timestampString = "555263574.338941"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "114">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "algorithms/magr/SimpleAlgorithmsMgr.m"
+            timestampString = "555263587.9606251"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "-quickSortWithArray:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SimpleAlgorithmsMgr quickSortWithArray:]"
+                  moduleName = "algorithms"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaochao/Desktop/XCRepository/algorithms/magr/SimpleAlgorithmsMgr.m"
+                  timestampString = "555263587.970381"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "334">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SimpleAlgorithmsMgr quickSortWithArray:]"
+                  moduleName = "algorithmsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaochao/Desktop/XCRepository/algorithms/magr/SimpleAlgorithmsMgr.m"
+                  timestampString = "555263587.974862"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "334">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "algorithms/magr/SimpleAlgorithmsMgr.m"
+            timestampString = "555263594.800837"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "-quickSortWithArray:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SimpleAlgorithmsMgr quickSortWithArray:]"
+                  moduleName = "algorithms"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaochao/Desktop/XCRepository/algorithms/magr/SimpleAlgorithmsMgr.m"
+                  timestampString = "555263649.133628"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "970">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SimpleAlgorithmsMgr quickSortWithArray:]"
+                  moduleName = "algorithmsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaochao/Desktop/XCRepository/algorithms/magr/SimpleAlgorithmsMgr.m"
+                  timestampString = "555263649.1377161"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "970">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "algorithms/magr/SimpleAlgorithmsMgr.m"
+            timestampString = "555263610.153278"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "-quickSortWithArray:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SimpleAlgorithmsMgr quickSortWithArray:]"
+                  moduleName = "algorithms"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaochao/Desktop/XCRepository/algorithms/magr/SimpleAlgorithmsMgr.m"
+                  timestampString = "555263610.163918"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "926">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SimpleAlgorithmsMgr quickSortWithArray:]"
+                  moduleName = "algorithmsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaochao/Desktop/XCRepository/algorithms/magr/SimpleAlgorithmsMgr.m"
+                  timestampString = "555263610.1678571"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "926">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "algorithms/magr/SimpleAlgorithmsMgr.m"
+            timestampString = "555263670.1468281"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "-quickSortWithArray:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SimpleAlgorithmsMgr quickSortWithArray:]"
+                  moduleName = "algorithms"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaochao/Desktop/XCRepository/algorithms/magr/SimpleAlgorithmsMgr.m"
+                  timestampString = "555263670.155856"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "1014">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SimpleAlgorithmsMgr quickSortWithArray:]"
+                  moduleName = "algorithmsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaochao/Desktop/XCRepository/algorithms/magr/SimpleAlgorithmsMgr.m"
+                  timestampString = "555263670.159556"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "1014">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "algorithms/magr/SimpleAlgorithmsMgr.m"
+            timestampString = "555263696.011549"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "-quickSortWithArray:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SimpleAlgorithmsMgr quickSortWithArray:]"
+                  moduleName = "algorithms"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaochao/Desktop/XCRepository/algorithms/magr/SimpleAlgorithmsMgr.m"
+                  timestampString = "555263696.020491"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "1051">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SimpleAlgorithmsMgr quickSortWithArray:]"
+                  moduleName = "algorithmsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaochao/Desktop/XCRepository/algorithms/magr/SimpleAlgorithmsMgr.m"
+                  timestampString = "555263696.024044"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "1051">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "algorithms/magr/SimpleAlgorithmsMgr.m"
+            timestampString = "555263733.38864"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "-quickSortWithArray:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SimpleAlgorithmsMgr quickSortWithArray:]"
+                  moduleName = "algorithms"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaochao/Desktop/XCRepository/algorithms/magr/SimpleAlgorithmsMgr.m"
+                  timestampString = "555263733.400475"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "1155">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SimpleAlgorithmsMgr quickSortWithArray:]"
+                  moduleName = "algorithmsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaochao/Desktop/XCRepository/algorithms/magr/SimpleAlgorithmsMgr.m"
+                  timestampString = "555263733.403742"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "1155">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

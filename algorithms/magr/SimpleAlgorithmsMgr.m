@@ -10,6 +10,7 @@
 
 @implementation SimpleAlgorithmsMgr
 
+#pragma mark - 二分查找
 - (NSUInteger)binaryFindIndexFromArry:(NSArray<NSNumber *> *)arry targetNum:(int)targetNum{
     NSUInteger resultIndex = -1;
     
@@ -34,6 +35,7 @@
     return resultIndex;
 }
 
+#pragma mark - 选择排序
 - (NSMutableArray *)selectionSortWithArray:(NSMutableArray *)array{
     NSMutableArray *sortArray = [NSMutableArray arrayWithCapacity:1];
     
@@ -46,6 +48,7 @@
     return sortArray;
 }
 
+#pragma mark - 寻找最小数
 - (NSUInteger)findMinNumWithArray:(NSMutableArray *)array{
     NSUInteger minNum = [[array firstObject] integerValue];
     for (int i = 1; i<array.count; i++) {
@@ -55,6 +58,36 @@
     }
     
     return minNum;
+}
+
+#pragma mark - 快速排序
+- (NSMutableArray *)quickSortWithArray:(NSMutableArray<NSNumber *> *)array{
+    NSMutableArray *resultArray = [NSMutableArray arrayWithCapacity:1];
+    
+    if (array.count <=1) {
+        return array;
+    }
+    else{
+        NSNumber *baseNum = [array objectAtIndex:0];
+        NSMutableArray *lessArray = [NSMutableArray arrayWithCapacity:1];
+        NSMutableArray *greaterArray = [NSMutableArray arrayWithCapacity:1];
+        
+        for (NSNumber *pNum in array) {
+            if ([pNum integerValue] > [baseNum integerValue]) {
+                [greaterArray addObject:pNum];
+            }
+            else if ([pNum integerValue] < [baseNum integerValue]){
+                [lessArray addObject:pNum];
+            }
+        }
+        NSMutableArray *lessSortArray = [self quickSortWithArray:lessArray];
+        NSMutableArray *greaterSortArray = [self quickSortWithArray:greaterArray];
+        [resultArray arrayByAddingObjectsFromArray:lessSortArray];
+        [resultArray addObject:baseNum];
+        [resultArray arrayByAddingObjectsFromArray:greaterSortArray];
+        
+        return resultArray;
+    }
 }
 
 @end
